@@ -1,77 +1,11 @@
 {
-  "booking": {
-    "body": "For tonight, call before 17:00. For groups over six, book one day ahead.",
-    "email": "booking@nhahangmay.vn",
-    "emailLabel": "Email",
-    "heading": "Book a table",
-    "phone": "+84 28 3930 1133",
-    "phoneLabel": "Call"
-  },
-  "directions": {
-    "address": "42 Nguyễn Đình Chiểu, Ward 6, District 3, Saigon",
-    "heading": "Where we are",
-    "hours": "Open daily 11:00–22:00",
-    "mapLabel": "Open directions"
-  },
-  "footer": {
-    "line": "Nhà hàng Mây · District 3, Saigon"
-  },
+  "site": { "name": "Your business" },
+  "nav": { "links": [{ "label": "Home", "href": "/" }], "cta": { "label": "Get in touch", "href": "#contact" } },
   "hero": {
-    "cta": {
-      "href": "#book",
-      "label": "Book a table"
-    },
-    "headline": "Dinner over District 3",
-    "imageCaption": "Cơm tấm, rau luộc, canh chua, clay pot fish.",
-    "sub": "Vietnamese cooking, 11:00–22:00, on Nguyễn Đình Chiểu."
+    "eyebrow": "",
+    "headline": "A headline of a few words",
+    "sub": "One line under it, and no more.",
+    "cta": { "label": "Get in touch", "href": "#contact" }
   },
-  "menu": {
-    "heading": "The menu",
-    "items": [
-      {
-        "detail": "Lemongrass beef broth, rice noodles, herbs",
-        "name": "Bún bò Huế",
-        "price": "145k"
-      },
-      {
-        "detail": "Clay pot fish, pepper, steamed rice",
-        "name": "Cá kho tộ",
-        "price": "165k"
-      },
-      {
-        "detail": "Prawn rolls, pork, vermicelli, peanut sauce",
-        "name": "Gỏi cuốn",
-        "price": "95k"
-      },
-      {
-        "detail": "Morning glory, garlic, fish sauce",
-        "name": "Rau muống xào tỏi",
-        "price": "75k"
-      }
-    ],
-    "note": "Lunch sets from 11:00. Last order 21:30."
-  },
-  "nav": {
-    "cta": {
-      "href": "#book",
-      "label": "Book a table"
-    },
-    "links": [
-      {
-        "href": "#menu",
-        "label": "Menu"
-      },
-      {
-        "href": "#book",
-        "label": "Book"
-      },
-      {
-        "href": "#directions",
-        "label": "Directions"
-      }
-    ]
-  },
-  "site": {
-    "name": "Nhà hàng Mây"
-  }
+  "footer": { "line": "Your business · District 1, Saigon" }
 }
