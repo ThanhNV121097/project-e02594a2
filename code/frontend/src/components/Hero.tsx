@@ -8,8 +8,8 @@ export default function Hero() {
         <T k="hero.sub" as="p" className="mt-7 max-w-[34ch] text-xl text-ink-soft md:text-2xl" />
         <T k="hero.cta.label" as="a" href="#book" className="mt-10 inline-flex rounded-full bg-accent px-7 py-4 text-base font-semibold text-accent-ink" />
       </div>
-      <figure className="rounded-[calc(var(--radius)*1.4)] bg-surface p-4 shadow-[0_28px_80px_rgba(29,33,26,0.10)]">
-        <div className="aspect-[4/5] rounded-[var(--radius)] bg-[radial-gradient(circle_at_30%_25%,var(--surface)_0_13%,transparent_14%),radial-gradient(circle_at_68%_34%,var(--accent)_0_10%,transparent_11%),linear-gradient(140deg,rgba(143,47,31,0.20),rgba(29,33,26,0.10))]" />
+      <figure className="rounded-[calc(var(--radius)*1.4)] bg-surface p-4 shadow-[0_28px_80px_color-mix(in_srgb,var(--ink)_10%,transparent)]">
+        <div className="aspect-[4/5] rounded-[var(--radius)] bg-[radial-gradient(circle_at_30%_25%,var(--surface)_0_13%,transparent_14%),radial-gradient(circle_at_68%_34%,var(--accent)_0_10%,transparent_11%),linear-gradient(140deg,color-mix(in_srgb,var(--accent)_20%,transparent),color-mix(in_srgb,var(--ink)_10%,transparent))]" />
         <T k="hero.imageCaption" as="figcaption" className="px-2 pt-4 text-sm text-ink-soft" />
       </figure>
     </section>
