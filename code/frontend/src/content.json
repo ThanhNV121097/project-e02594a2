@@ -1,11 +1,42 @@
 {
-  "site": { "name": "Your business" },
-  "nav": { "links": [{ "label": "Home", "href": "/" }], "cta": { "label": "Get in touch", "href": "#contact" } },
-  "hero": {
-    "eyebrow": "",
-    "headline": "A headline of a few words",
-    "sub": "One line under it, and no more.",
-    "cta": { "label": "Get in touch", "href": "#contact" }
+  "site": { "name": "Nhà hàng Mây" },
+  "nav": {
+    "links": [
+      { "label": "Menu", "href": "#menu" },
+      { "label": "Book", "href": "#book" },
+      { "label": "Directions", "href": "#directions" }
+    ],
+    "cta": { "label": "Book a table", "href": "#book" }
   },
-  "footer": { "line": "Your business · District 1, Saigon" }
+  "hero": {
+    "headline": "Dinner above District 3",
+    "sub": "Vietnamese cooking, 11:00–22:00, on Nguyễn Đình Chiểu.",
+    "cta": { "label": "Book a table", "href": "#book" },
+    "imageCaption": "Cơm tấm, rau luộc, canh chua, clay pot fish."
+  },
+  "menu": {
+    "heading": "The menu",
+    "items": [
+      { "name": "Bún bò Huế", "detail": "Lemongrass beef broth, rice noodles, herbs", "price": "145k" },
+      { "name": "Cá kho tộ", "detail": "Clay pot fish, pepper, steamed rice", "price": "165k" },
+      { "name": "Gỏi cuốn", "detail": "Prawn rolls, pork, vermicelli, peanut sauce", "price": "95k" },
+      { "name": "Rau muống xào tỏi", "detail": "Morning glory, garlic, fish sauce", "price": "75k" }
+    ],
+    "note": "Lunch sets from 11:00. Last order 21:30."
+  },
+  "booking": {
+    "heading": "Book a table",
+    "body": "For tonight, call before 17:00. For groups over six, book one day ahead.",
+    "phoneLabel": "Call",
+    "phone": "+84 28 3930 1133",
+    "emailLabel": "Email",
+    "email": "booking@nhahangmay.vn"
+  },
+  "directions": {
+    "heading": "Where we are",
+    "address": "42 Nguyễn Đình Chiểu, Ward 6, District 3, Saigon",
+    "hours": "Open daily 11:00–22:00",
+    "mapLabel": "Open directions"
+  },
+  "footer": { "line": "Nhà hàng Mây · District 3, Saigon" }
 }
